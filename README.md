@@ -14,8 +14,10 @@ https://github.com/WanyeBruce/mp-freshsubscribe
 
 刷新市场，安装“追新订阅”。默认只展示候选；核对后再选择自动订阅频道。
 
-需要 MoviePilot **>=2.15.6,<3**，Linux **x86_64 或 ARM64**，**CPython 3.12**。其他架构、Windows、macOS 或不同 Python 小版本尚不支持。使用 MP 自带的 TMDB、网络、下载器和整理配置；Bangumi 未映射条目需先配置 TMDB ID 和季度。豆瓣来源尚未接入。
+安装或升级编译版后，请重启 MP 进程／容器，让新的本机模块生效；仅重载插件不能可靠替换已加载的本机模块。
 
-安装包通过 GitHub Releases 分发，根目录只有插件入口、许可证及两个平台的编译模块。核心逻辑没有以原始 `.py` 文件放入公开仓库或安装包；编译不等于不可逆向。
+需要 MoviePilot **>=2.15.6,<3**，Linux **x86_64**，**CPython 3.12**。ARM64、Windows、macOS 或不同 Python 小版本尚不支持。使用 MP 自带的 TMDB、网络、下载器和整理配置；Bangumi 未映射条目需先配置 TMDB ID 和季度。豆瓣来源尚未接入。
+
+安装包通过 GitHub Releases 分发，根目录只有插件入口、许可证及 x86_64 的编译模块。核心逻辑没有以原始 `.py` 文件放入公开仓库或安装包；编译不等于不可逆向。
 
 本版本沿用 GPL-3.0。接收者可按许可证取得对应源码；请通过本仓库 Issue 联系维护者获取。源码获取和再分发权利不因采用编译包而改变，参见 `LICENSE`。
