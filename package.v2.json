@@ -3,12 +3,13 @@
     "name": "追新订阅",
     "description": "国内外剧集、动画、电影、综艺追新；综艺按站点只追正片。",
     "labels": "订阅",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "icon": "Moviepilot_A.png",
     "author": "WanyeBruce",
     "system_version": ">=2.15.6,<3",
     "level": 1,
     "history": {
+      "v0.2.1": "修复配置页标签重叠：分组卡片、响应式列宽、说明提示和输入框间距。",
       "v0.2.0": "编译发行结构；Python 3.12 / Linux x86_64。"
     },
     "release": true
